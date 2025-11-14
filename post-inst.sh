@@ -30,7 +30,7 @@ sudo ufw allow 22/tcp
 sudo ufw allow 80/tcp
 
 echo "Habilitando o firewall" >> /home/ubuntu/script.log
-echo y | sudo ufw enabl
+echo y | sudo ufw enable
 
 echo "Fim do script" >> /home/ubuntu/script.log
 sudo reboot
